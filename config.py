@@ -25,7 +25,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "8150875959"))
+OWNER_ID = int(getenv("OWNER_ID", "6014895515"))
 
 LOG = int(getenv("LOG", True))
 
@@ -44,8 +44,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KING_BOT_UPDATE")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+Ghys6fsCDHs5MTI1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MusiclineTechTeam")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Mahadev_Updates")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -91,10 +91,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/59au6c.jpg"
+    "START_IMG_URL", "https://ibb.co/WWkKx89c"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/59au6c.jpg"
+    "PING_IMG_URL", ""
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/59au6c.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/59au6c.jpg"
